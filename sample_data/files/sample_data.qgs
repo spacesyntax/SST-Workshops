@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis projectname="" version="2.14.14-Essen">
   <title></title>
-  <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="axial">
       <customproperties/>
@@ -36,7 +36,7 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="road centre lines">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="road centre lines">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_openstreetmap20170619230153958" name="Roads_openstreetmap">
         <customproperties/>
@@ -86,22 +86,22 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="simplified">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="simplified">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_openstreetmap_1020170630092011717" name="Roads_openstreetmap_10">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_openstreetmap_1020170630092011717" name="Roads_openstreetmap_simp10">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_openstreetmap_2020170630092011683" name="Roads_openstreetmap_20">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_openstreetmap_2020170630092011683" name="Roads_openstreetmap_simp20">
           <customproperties>
-            <property key="showFeatureCount" value="1"/>
+            <property key="showFeatureCount" value="0"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_os_openroads_simp1020170630092011636" name="Roads_os_openroads_simp10">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="roads_os_openroads_simp1020170630092011636" name="Roads_os_openroads_simp10">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_os_openroads_simp2020170630092011526" name="Roads_os_openroads_simp20">
           <customproperties>
-            <property key="showFeatureCount" value="1"/>
+            <property key="showFeatureCount" value="0"/>
           </customproperties>
         </layer-tree-layer>
       </layer-tree-group>
@@ -116,7 +116,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_os_meridian2_analysis20170630092032268" name="Roads_os_meridian2_analysis">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Roads_os_openroads_simp10_analysis20170630092032156" name="Roads_os_openroads_simp10_analysis">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Roads_os_openroads_simp10_analysis20170630092032156" name="Roads_os_openroads_simp10_analysis">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -162,10 +162,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>528717.72499999997671694</xmin>
-      <ymin>181184.97500000000582077</ymin>
-      <xmax>533727.27500000002328306</xmax>
-      <ymax>187654.02499999999417923</ymax>
+      <xmin>530468.21453580737579614</xmin>
+      <ymin>183639.41828290489502251</ymin>
+      <xmax>531720.60203580849338323</xmax>
+      <ymax>185256.68078290508128703</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -190,8 +190,8 @@
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_analysis20170619230321429"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_analysis20170619230926838"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_openstreetmap_1020170630092011717"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_simp1020170630092011636"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_network20170630094751695"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_simp1020170630092011636"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_network_meridian2_stations20170630095324823"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="unlinks_verified20170619230849500"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="pedestrian_counts_process20170630092135370"/>
@@ -200,23 +200,23 @@
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="municipal_boundary20170619230209398"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_meridian2_analysis20170630092032268"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_areas_meridian2_lines20170630095324973"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_meridian220170619230153894"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_segment_analysis_weighted20170630094454265"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_network20170630095029527"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_segment_analysis_weighted20170630094454265"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_meridian220170619230153894"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_areas_meridian2_lines20170630095206776"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_meridian2_errors20170630091926670"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_errors20170630091926531"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="catchment_network_meridian2_lines20170630095324899"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20170619230209453"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_errors20170630091926531"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="axial_map_wgs8420170630092103768"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20170619230209453"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_cleaned20170630091926574"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="axial_map_errors20170619230140321"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_segment_analysis20170619230559995"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads_cleaned_db20170630091926613"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="unlinks_errors20170619230140241"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="pedestrian_counts20170619230209369"/>
-      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_openstreetmap_cleaned_db20170630091926873"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads_os_openroads_simp20_analysis20170630092406736"/>
+      <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_openstreetmap_cleaned_db20170630091926873"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Axial_map_segment_analysis_weighted20170630094359292"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_os_openroads20170619230153844"/>
       <layer_coordinate_transform destAuthId="EPSG:27700" srcAuthId="EPSG:27700" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads_os_openroads_simp10_analysis20170630092032156"/>
@@ -339,7 +339,7 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="road centre lines">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="road centre lines">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_openstreetmap" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="roads_openstreetmap20170619230153958" visible="0"/>
@@ -417,23 +417,23 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="simplified">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_openstreetmap_10" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="simplified">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_openstreetmap_simp10" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="roads_openstreetmap_1020170630092011717" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_openstreetmap_20" showFeatureCount="1">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_openstreetmap_simp20" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="roads_openstreetmap_2020170630092011683" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_os_openroads_simp10" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Roads_os_openroads_simp10" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="roads_os_openroads_simp1020170630092011636" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="roads_os_openroads_simp1020170630092011636" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_os_openroads_simp20" showFeatureCount="1">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_os_openroads_simp20" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="roads_os_openroads_simp2020170630092011526" visible="0"/>
           </filegroup>
@@ -455,8 +455,8 @@
             <legendlayerfile isInOverview="0" layerid="roads_os_meridian2_analysis20170630092032268" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads_os_openroads_simp10_analysis" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Roads_os_openroads_simp10_analysis" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Roads_os_openroads_simp10_analysis20170630092032156" visible="0"/>
           </filegroup>
         </legendlayer>
@@ -815,14 +815,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1045,14 +1045,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1365,14 +1365,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1586,14 +1586,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1807,14 +1807,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1976,7 +1976,19 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 attr="INT" forceraster="0" symbollevels="1" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="510.787599999999998" upper="737.235400000000027" label=" 510.7876 - 737.2354 "/>
+          <range render="true" symbol="1" lower="737.235400000000027" upper="790.481894000000011" label=" 737.2354 - 790.4819 "/>
+          <range render="true" symbol="2" lower="790.481894000000011" upper="833.087876000000051" label=" 790.4819 - 833.0879 "/>
+          <range render="true" symbol="3" lower="833.087876000000051" upper="874.621994000000086" label=" 833.0879 - 874.6220 "/>
+          <range render="true" symbol="4" lower="874.621994000000086" upper="902.585940000000051" label=" 874.6220 - 902.5859 "/>
+          <range render="true" symbol="5" lower="902.585940000000051" upper="933.002128000000084" label=" 902.5859 - 933.0021 "/>
+          <range render="true" symbol="6" lower="933.002128000000084" upper="984.067970000000059" label=" 933.0021 - 984.0680 "/>
+          <range render="true" symbol="7" lower="984.067970000000059" upper="1033.210839999999962" label=" 984.0680 - 1033.2108 "/>
+          <range render="true" symbol="8" lower="1033.210839999999962" upper="1089.472040000000106" label=" 1033.2108 - 1089.4720 "/>
+          <range render="true" symbol="9" lower="1089.472040000000106" upper="1334.781500000000051" label=" 1089.4720 - 1334.7815 "/>
+        </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
@@ -1986,9 +1998,180 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="76,178,71,255"/>
+              <prop k="line_color" v="0,0,255,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
+            <layer pass="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,113,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
+            <layer pass="2" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,226,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,255,170,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="4">
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,255,56,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="5">
+            <layer pass="5" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="56,255,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="6">
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="169,255,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="7">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,226,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="8">
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,113,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="9">
+            <layer pass="9" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,0,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1998,15 +2181,45 @@
             </layer>
           </symbol>
         </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="198,144,156,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.25"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="0,0,255,255"/>
+          <prop k="color2" v="255,0,0,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.25;0,255,255,255:0.5;0,255,0,255:0.75;255,255,0,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="quantile"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="4"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>segid</displayfield>
+      <displayfield>INT</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Label"/>
@@ -2028,14 +2241,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2349,14 +2562,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3822,14 +4035,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4139,7 +4352,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Roads_openstreetmap_10</layername>
+      <layername>Roads_openstreetmap_simp10</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=375,-111,431,0,0,0,0 +units=m +no_defs</proj4>
@@ -4244,14 +4457,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4273,7 +4486,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Roads_openstreetmap_20</layername>
+      <layername>Roads_openstreetmap_simp20</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=375,-111,431,0,0,0,0 +units=m +no_defs</proj4>
@@ -4378,14 +4591,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4512,14 +4725,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4646,14 +4859,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4756,14 +4969,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4877,14 +5090,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5211,14 +5424,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5324,14 +5537,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5437,14 +5650,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5547,14 +5760,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5668,14 +5881,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5930,14 +6143,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6061,14 +6274,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6171,14 +6384,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6302,14 +6515,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6433,14 +6646,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6554,14 +6767,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6905,14 +7118,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -7198,6 +7411,36 @@
         <stubs type="QString">40</stubs>
         <fullset type="int">0</fullset>
       </depthmap>
+      <symbology>
+        <Roads_os_openroads_simp10_analysis>
+          <CH>
+            <invert_colour type="int">0</invert_colour>
+            <attribute type="QString">CH</attribute>
+            <top_value type="int">5140808</top_value>
+            <colour_range type="int">0</colour_range>
+            <intervals type="int">10</intervals>
+            <display_order type="int">0</display_order>
+            <bottom_percent type="int">0</bottom_percent>
+            <bottom_value type="int">0</bottom_value>
+            <interval_type type="int">1</interval_type>
+            <top_percent type="int">100</top_percent>
+            <line_width type="int">0</line_width>
+          </CH>
+          <INT>
+            <invert_colour type="int">0</invert_colour>
+            <attribute type="QString">INT</attribute>
+            <top_value type="int">1334</top_value>
+            <colour_range type="int">0</colour_range>
+            <intervals type="int">10</intervals>
+            <display_order type="int">0</display_order>
+            <bottom_percent type="int">0</bottom_percent>
+            <bottom_value type="int">510</bottom_value>
+            <interval_type type="int">1</interval_type>
+            <top_percent type="int">100</top_percent>
+            <line_width type="int">0</line_width>
+          </INT>
+        </Roads_os_openroads_simp10_analysis>
+      </symbology>
       <datastore>
         <schema type="QString"></schema>
         <path type="QString">/Users/jorge/github/SSS11-workshop/sample_data/files/axial</path>
