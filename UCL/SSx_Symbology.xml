@@ -1,0 +1,260 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="line" name="Arrow">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="line_color" v="0,0,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.75"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="3"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="lastvertex"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@Arrow@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="arrowhead"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,255,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.75"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="3"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="3"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0.1"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="firstvertex"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@Arrow@2">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="180"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="arrowhead"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,255,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.75"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="3"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="Bus Stop">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_Bus.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="Docklands Light Rail">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_DLR.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="6"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="London Overground">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_Overground.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="6"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="London Underground">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_Underground.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="6"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="London River Services">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_River_Services.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="5"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="Crossrail">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/London_Crossrail.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="6"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="National Rail">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/National_Rail.svg.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="6"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="North_Arrow">
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="S:/Tools/QGIS/Markers/North_Arrow.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="#000000"/>
+        <prop k="outline_width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="10"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps>
+    <colorramp type="gradient" name="SSx Colour Ramp">
+      <prop k="color1" v="0,0,255,255"/>
+      <prop k="color2" v="227,26,28,255"/>
+      <prop k="discrete" v="0"/>
+      <prop k="stops" v="0.3;0,230,255,255:0.45;0,255,4,255:0.5;162,255,0,255:0.65;255,255,0,255:0.75;255,183,0,255:0.8;255,123,0,255"/>
+    </colorramp>
+  </colorramps>
+</qgis_style>
